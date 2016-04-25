@@ -1,0 +1,169 @@
+.logoHeader{
+	width: 25%;
+
+}
+.brand-logo{
+	top: 10px;
+	left: 30px;
+}
+.connect{
+	position: relative;
+	top: 175px;
+	margin-left: 100px !important;
+	float: left;
+	padding: 0 !important;
+}
+.carousel{
+	float: left;
+	top: 50px !important;
+}
+.navindex{
+	background-color: #0052F9;
+}
+
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+footer.page-footer{
+	background-color: #0052F9 !important;
+} 
+.carousel .carousel-item img {
+	width: 500px !important;
+}
+.row .col{
+	padding: 0 0rem !important;
+}
+.button_connexion {
+	background-color: #E91E63 !important;
+}
+.links{
+	margin-top: 25px;
+}
+input, textarea, select {
+	background-color: #fff !important;
+	outline: #fff !important;
+}
+
+@media screen and (min-width :200px) and (max-width :601px){
+	.connect{
+		margin-left: 0px !important;
+		margin-top: 100px !important;
+		text-align: center;
+		margin: auto;
+		position: static;
+	}
+	.connect input{
+		text-align: center;
+	}
+	.carousel {
+		display: none;
+	}
+
+	.logoHeader{
+		width: 90%;
+
+	}
+	.button_connexion{
+		margin-top: 25px !important;
+	}
+	.links{
+		margin-top: 45px;
+	}
+	.links a {
+		margin-bottom: 20px;
+	}
+}
+
+
+@media screen and (min-width :602px) and (max-width :992px){
+	.connect{
+		margin-left: 0px !important;
+		margin-top: 100px !important;
+		text-align: center;
+		margin: auto;
+		position: static;
+	}
+	.connect input{
+		text-align: center;
+	}
+	.carousel {
+		display: none;
+	}
+
+	.logoHeader{
+		width: 90%;
+		box-shadow: #000 1px 2px 14px;
+
+	}
+	.button_connexion{
+		margin-top: 25px !important;
+	}
+	.links{
+		margin-top: 45px;
+	}
+	.links a {
+		margin-bottom: 20px;
+	}
+
+
+}
+
+@media screen and (min-width :993px) and (max-width :1213px){
+	.connect{
+		margin-top: 100px !important;
+		position: static;
+	}
+
+	.carousel {
+		display: none;
+	}
+
+	.logoHeader{
+		width: 90%;
+		box-shadow: #000 1px 2px 14px;
+
+	}
+	.button_connexion{
+		margin-top: 25px !important;
+	}
+	.links{
+		margin-top: 45px;
+	}
+	.links a {
+		margin-bottom: 20px;
+	}
+
+
+}
+
+@media screen and (min-width :993px){
+	.logoHeader{
+		width: 43%;
+
+	}
+	.button_connexion{
+		margin-top: 25px !important;
+	}
+	
+}
+
+.menu_left{
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	height: 1000px;
+}
+.profil{
+	padding-top: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.membersList{
+	margin-top: 50px;
+    margin-left: 84px;
+}
