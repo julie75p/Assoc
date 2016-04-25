@@ -16,6 +16,7 @@
 .carousel{
 	float: left;
 	top: 50px !important;
+	perspective: 1000px !important;
 }
 .navindex{
 	background-color: #0052F9;
@@ -157,13 +158,50 @@ input, textarea, select {
 .menu_left{
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 	height: 1000px;
+	padding-top: 50px;
 }
 .profil{
 	padding-top: 70px;
-    padding-left: 5px;
-    padding-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .membersList{
 	margin-top: 50px;
-    margin-left: 84px;
+	margin-left: 84px;
+}
+.col.s8.fiche_profil{
+	padding-left: 15px !important;
+}
+.col.s4.content_img_profil{
+	padding-left: 15px !important;
+	border-radius: 0 !important;
+}
+.img_profil{
+	border-radius: 0 !important;
+}
+.col.s12.content_profil{
+	padding-left: 15px !important;
+}
+.buttons_menu{
+	display: inline-flex;
+}
+.buttons_menu li{
+	margin-right: 10px !important;
+}
+.searchbar{
+	height: 2rem !important;
+	border-radius: 50px !important;
+	border: 1px solid #795548 !important;
+	width: 400px !important;
+    margin-top: -10px !important;
+
+}
+.input-field label.active {
+	transform: translateY(-23%) !important;
+}
+.btn, .btn-large{
+	letter-spacing: 0 !important;
+}
+.btn_panel{
+	background-color: #8BC34A !important;
 }

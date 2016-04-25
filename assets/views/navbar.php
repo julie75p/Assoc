@@ -1,7 +1,9 @@
 <header>
     <nav class="navindex">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo"><img class="logoHeader" src="assets/img/enfanceEtPartageLogo.png"></a>
+        <a href="#!" class="brand-logo">
+          <img class="logoHeader" src= "<?= isset($nav) ? $nav : "" ?>assets/img/enfanceEtPartageLogo.png">
+        </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="assets/views/panel.php">Panel Admin</a></li>
