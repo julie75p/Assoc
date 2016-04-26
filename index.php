@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link type="text/css" rel="stylesheet" href="librairies/materialize/css/materialize.min.css"  media="screen,projection"/>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -19,11 +20,11 @@
 
         <form class="connection" autocomplete="off">
           <div class="row">
-            <div class="input-field col s12">
+            <div class="input-field input_connect col s12">
               <input  id="identifiant" type="text" class="validate" autocomplete="off">
               <label for="identifiant">Identifiant</label>
             </div>
-            <div class="input-field col  s12">
+            <div class="input-field input_connect col  s12">
               <input id="password" type="password" class="validate" autocomplete="off">
               <label for="password">Mot de passe</label>
             </div>
@@ -38,11 +39,11 @@
       </div>
 
       <div class="carousel col s12 m7 l8">
-        <a class="carousel-item" href="#one!"><img src="assets/img/enfanceEtPartage.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="assets/img/enfanceEtPartage.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="assets/img/enfanceEtPartage.jpg"></a>
-        <a class="carousel-item" href="#four!"><img src="assets/img/enfanceEtPartage.jpg"></a>
-        <a class="carousel-item" href="#five!"><img src="assets/img/enfanceEtPartage.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="assets/img/9.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="assets/img/8.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="assets/img/7.jpg"></a>
+        <a class="carousel-item" href="#one!"><img src="assets/img/5.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="assets/img/6.jpg"></a>
       </div>
     </div>
   </main>
