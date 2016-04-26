@@ -18,7 +18,7 @@
 		<!-- Page Layout here -->
 		<div class="row">
 
-			<div class="col s3 menu_left">
+			<div class="col s2 menu_left">
 				<div class="menu_left_un">
 					<div class="col s5 content_img_profil">
 						<img src="../img/default.jpg" alt="" class="circle responsive-img img_profil"> <!-- notice the "circle" class -->

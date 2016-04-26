@@ -24,9 +24,6 @@
 				
 					<h2>Documents Administratifs</h2>
 					<ul class="buttons_menu">
-						<li>
-							<a class="waves-effect waves-light btn btn_panel"> <i class="material-icons left">add</i>Ajouter un document</a>
-						</li>
 						<li>	
 							<form>
 								<div class="input-field input_search searchbar_content">
@@ -35,6 +32,9 @@
 									<i class="material-icons">close</i>
 								</div>
 							</form>
+						</li>
+						<li>
+							<a class="waves-effect waves-light btn btn_panel"> <i class="material-icons left">add</i>Ajouter un document</a>
 						</li>
 					</ul>
 					<ul class="List_doc">

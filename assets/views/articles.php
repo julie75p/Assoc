@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="background-color">
+<html>
 <head>
 	<title></title>
 	<meta charset="utf-8" />
@@ -18,14 +18,47 @@
 		<!-- Page Layout here -->
 		<div class="row">
 
-		
+			<div class="col s2 menu_left">
+				<div class="menu_left_un">
+					<div class="col s5 content_img_profil">
+						<img src="../img/default.jpg" alt="" class="circle responsive-img img_profil"> <!-- notice the "circle" class -->
+					</div>
+					<div class="col s7 fiche_profil">
+						<h5 class="name_profil">
+							Julie Planque
+						</h5>
+						<p>
+							01/05/1992
+						</p>
+						<p>
+							10B rue du partage
+						</p>
+						<p>75018 Paris</p>
+					</div>
+					<div class="col s12 content_profil">
+						<p>
+							Poste : Développeur Front-End
+						</p>
+						<p>
+							Tel pro : 0150485978
+						</p>
+						<p>
+							@ : julie.planque@partage.org
+						</p>
+						<a href="">modifier profil</a>
+					</div>
+				</div>
+			</div>
 
-			<div class="col s8 document_list">
-				
-					<h2>Documents Administratifs</h2>
+			<div class="col s9">
+				<div class="membersList">
+					<h2>Listes de Membres</h2>
 					<ul class="buttons_menu">
 						<li>
-							<a class="waves-effect waves-light btn btn_panel"> <i class="material-icons left">add</i>Ajouter un document</a>
+							<a class="waves-effect waves-light btn btn_panel modal-trigger" href="#modal1"> <i class="material-icons left">add</i>Ajouter un membre</a>
+						</li>
+						<li>
+							<a class="waves-effect waves-light btn btn_panel"> <i class="material-icons left">add</i>Créer un groupe</a>
 						</li>
 						<li>	
 							<form>
@@ -37,13 +70,51 @@
 							</form>
 						</li>
 					</ul>
-					<ul class="List_doc">
-						<li class="li_doc">Documents secrétariat</li>
-						<li class="li_doc">Documents pôle 2</li>
-						<li class="li_doc">Documents pôle 3</li>
-						<li></li>
-					</ul>	
-				
+					<table class="striped">
+						<thead>
+							<tr>
+								<th data-field="id">Groupe</th>
+								<th data-field="name">Poste</th>
+								<th data-field="price">Nom/Prénom</th>
+								<th data-field="price">Entreprise</th>
+								<th data-field="price">Modifier</th>
+								
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>Secrétariat</td>
+								<td>Secrétaire</td>
+								<td>Ashley Azerty</td>
+								<td>Employé Asso</td>
+								<th data-field="price"><a class="btn-floating btn_floating_perso "><i class="material-icons">mode_edit</i></a></th>
+
+							</tr>
+							<tr>
+								<td>Secrétariat</td>
+								<td>DRH</td>
+								<td>Céline Rufert</td>
+								<td>Employé Asso</td>
+								<th data-field="price"><a class="btn-floating btn_floating_perso"><i class="material-icons">mode_edit</i></a></th>
+							</tr>
+							<tr>
+								<td>Informatique</td>
+								<td>Developpeur</td>
+								<td>Julie Planque</td>
+								<td>Employé Asso</td>
+								<th data-field="price"><a class="btn-floating btn_floating_perso"><i class="material-icons">mode_edit</i></a></th>
+							</tr>
+							<tr>
+								<td>Justice</td>
+								<td>Avocat</td>
+								<td>Roger Trucmuche</td>
+								<td>Cabinet Montfleur</td>
+								<th data-field="price"><a class="btn-floating btn_floating_perso"><i class="material-icons">mode_edit</i></a></th>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 
