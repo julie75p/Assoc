@@ -11,14 +11,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-	<?php 
-	$nav = "../../";
-	include("navbar.php"); ?>
+	<header>
+		<nav class="navindex">
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">
+					<h3>Intranet Enfance et Partage</h3>
+					<!-- <img class="logoHeader" src= "<?= isset($nav) ? $nav : "" ?>assets/img/enfanceEtPartageLogo.png"> -->
+				</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="articles.php">Fil d'actualité</a></li>
+					<li><a href="panel.php">Panel Administrations</a></li>
+					<li><a href="documents.php">Documents Administratifs</a></li>
+					<li class="btn_deco"><a href="../index.php">Se Deconnecter</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="articles.php">Fil d'actualité</a></li>
+					<li><a href="panel.php">Panel Administrations</a></li>
+					<li><a href="documents.php">Documents Administratifs</a></li>
+					<li class="btn_deco"><a href="../../index.php">Se Deconnecter</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 	<main>
 		<!-- Page Layout here -->
 		<div class="row">
 
-			<div class="col s2 menu_left">
+			<div class="col s2 menu_left hide-on-med-and-down">
 				<div class="menu_left_un">
 					<div class="col s5 content_img_profil">
 						<img src="../img/default.jpg" alt="" class="circle responsive-img img_profil"> <!-- notice the "circle" class -->
@@ -50,7 +70,7 @@
 				</div>
 			</div>
 
-			<div class="col s9">
+			<div class="col s10 content_right" >
 				<div class="membersList">
 					<h2>Listes de Membres</h2>
 					<ul class="buttons_menu">
@@ -58,7 +78,7 @@
 							<a class="waves-effect waves-light btn btn_panel modal-trigger" href="#modal1"> <i class="material-icons left">add</i>Ajouter un membre</a>
 						</li>
 						<li>
-							<a class="waves-effect waves-light btn btn_panel"> <i class="material-icons left">add</i>Créer un groupe</a>
+							<a class="waves-effect waves-light btn btn_panel modal-trigger" href="#modal3"> <i class="material-icons left">add</i>Créer un groupe</a>
 						</li>
 						<li>	
 							<form>
@@ -166,6 +186,75 @@
 								<input id="password" type="password" class="validate">
 								<label for="password">Password</label>
 							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea id="textarea1" class="materialize-textarea"></textarea>
+								<label for="textarea1">Commentaires</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button class="btn waves-effect waves-light btn_submit" type="submit" name="action">enregistrer
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<ul id='dropdown1' class='dropdown-content'>
+				<li><a href="#!">one</a></li>
+				<li><a href="#!">two</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">three</a></li>
+			</ul>
+		</div>
+		<!-- Modal Structure -->
+		<div id="modal3" class="modal">
+			<div class="modal-content">
+				<h3>Ajouter un groupe</h3>
+				<div class="row">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field input_form col s4">
+								<input  id="name" type="text" class="validate">
+								<label for="name">Nom du groupe</label>
+							</div>
+							<div class="input-field  input_form col s4">
+								<!-- Switch -->
+								<div class="switch">
+									<label>
+										Off
+										<input type="checkbox">
+										<span class="lever"></span>
+										On - Ajout/Modification articles 
+									</label>
+								</div>
+							</div>
+
+
+							<div class="input-field input_form col s4">
+								<!-- Switch -->
+								<div class="switch">
+									<label>
+										Off
+										<input type="checkbox">
+										<span class="lever"></span>
+										On - Ajout documents admin
+									</label>
+								</div>
+							</div>
+							<div class="input-field input_form col s6">
+								<!-- Switch -->
+								<div class="switch">
+									<label>
+										Off
+										<input type="checkbox">
+										<span class="lever"></span>
+										On - Ajout de membre/ modification profil
+									</label>
+								</div>
+							</div>
+						
 						</div>
 						<div class="row">
 							<div class="input-field col s12">

@@ -30,6 +30,8 @@ h2{
 }
 .navindex{
 	background-color: #025FAC;
+	position: fixed;
+	z-index: 99999;
 }
 
 
@@ -165,6 +167,8 @@ input, textarea, select {
 .menu_left{
 	padding: 0 0rem !important;
 	font-weight: 300;
+	position: fixed !important;
+	top: 64px !important;
 
 }
 .menu_left_un{
@@ -225,7 +229,7 @@ input, textarea, select {
 	background-color: #8BC34A !important;
 }
 .dropdown_perso{
-	width: 225px;
+	width: 300px;
 	height: 44px !important;
 	margin-bottom: 17px !important;
 	background-color: transparent !important;
@@ -240,6 +244,10 @@ input, textarea, select {
 }
 .modal{
 	max-height: 100% !important;
+	background-color: #fff !important;
+}
+.modal .modal-footer{
+	background-color: #fff !important;
 }
 table.striped>tbody>tr:nth-child(odd) {
 	background-color: aliceblue !important;
@@ -282,10 +290,15 @@ tr:hover{
 	position: absolute;
 	top: 125px;
 	min-height: 1000px !important;
-	padding-left: 40px !important;
 	left: 18% !important;
-	padding-right: 40px !important;
 	background-color: #fff !important;
+	padding: 0 0 !important;
+	margin: 0 0 0 0 !important;
+}
+.document_list h2 {
+	background-color: aliceblue;
+	padding: 20px;
+	margin: 0 !important;
 }
 .List_doc{
 	color: #9E9E9E;
@@ -294,4 +307,83 @@ tr:hover{
 }
 .fiche_profil{
 	margin-top: -5px;
+}
+
+article {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	padding: 35px !important;
+	margin-left: 14% !important;
+	
+	margin-top: 15px;
+}
+article img{
+	float: left;
+	margin-right: 20px !important;
+
+
+}
+article h2{
+	margin-bottom: 40px !important;
+	color: #3F51B5;
+	font-weight: 300;
+}
+article p{
+	text-align: justify;
+	font-size: 18px;
+}
+.date_article{
+	float: right;
+	color: #9E9E9E;
+	font-variant: small-caps;
+}
+.btn_article{
+	float: right;
+	position: relative !important;
+	margin-top: 42px;
+}
+.content_right{
+	position: static;
+	margin-top: 64px !important;
+	margin-left: 320px !important;
+}
+.switch{
+	margin-bottom: 20px !important;
+}
+.space{
+	padding: 20px;
+	padding-left: 40px;
+}
+.modal h2 {
+	font-weight: 200;
+	background-color: #025FAC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	padding-left: 5px;
+	margin-top: 0 !important;
+}
+.modal h3 {
+	font-weight: 200;
+	background-color: #025FAC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color:  #fff;
+	padding-left: 15px;
+	margin-top: 0 !important;
+}
+.modal .modal-content {
+	padding: 0px !important;
+}
+.choice{
+	color: #3F51B5;
+	margin-top: 70px;
+	font-size: 22px;
+}
+.category{
+	margin-top: 80px !important;
+}
+.blueTitle{
+	color: #3F51B5;
+	font-variant: small-caps;
+	margin-bottom: 30px;
 }
